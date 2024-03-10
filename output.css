@@ -1,13 +1,21 @@
-body{background-color: aquamarine;}
-  
-form {
+body{
+  background-color: #61dafbaa;
   margin: 20px auto; /* Center the form horizontally */
   width: 300px;
 }
-
+form {
+  margin: 20px auto; /* Center the form horizontally */
+  width: 300px;
+  border-style: dotted;
+}
 label {
   display: block; /* Display labels in block format */
   margin-bottom: 5px;
+}
+
+.nombre{
+  background-color: #61dafbaa;
+  font-size: large;
 }
 
 input[type="text"],
